@@ -1,0 +1,67 @@
+body {
+  background-color: #424242;
+  color: #fff;
+  font-size: 11pt;
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+  body .wrapper {
+    padding: 2em;
+    width: 32em;
+    margin: 0 auto;
+    text-align: left; }
+    body .wrapper #header {
+      width: 658px;
+      height:91px;
+      background:url(../images/stupidly.png) top left no-repeat;
+      position:relative; 
+      margin-left:-10px;}
+    body .wrapper h1 {
+      font-size: 240%;
+      margin-bottom: -.5em; 
+      position:absolute;
+      margin-left:-9999px;}
+    body .wrapper h2, body .wrapper p, body .wrapper ul, body .wrapper code {
+      margin-bottom: 1em; }
+    body .wrapper p {
+      margin:0 0 2em 0;}
+    body .wrapper h2 a {
+      color: #fff; }
+    body .wrapper h3 {
+      font-size: 140%;
+      margin-bottom: .4em; }
+    body .wrapper ul {
+      padding-left: 2em; }
+      body .wrapper ul li {
+        list-style-type: square; 
+        margin-left: 0;}
+    body .wrapper a {
+      color: #ffd400; }
+    body .wrapper code {
+      margin-left: 1em;
+      padding: .5em;
+      display: block;
+    }
+    body .wrapper code, body .wrapper .code {
+      background-color: #0C717A;
+      color: #fff;
+      font-size: 85%;
+      font-family: courier, monospace; }
+      body .wrapper code a, body .wrapper .code a {
+        color: #fff; }
+    body .wrapper .copyright {
+      font-family: verdana, sans-serif;
+      font-size: 75%;
+      margin-top: 8em; }
+      body .wrapper .copyright span {
+        color: #8ADEE2; }
+    body .wrapper .download h4 {
+      font-size: 120%;
+      margin-top: -.5em;
+      color: #8ADEE2; }
+    body .wrapper .twoot {
+      padding-top: 3em; }
+    body .wrapper #footer {
+      text-align:center;
+      margin:2em 0; }
